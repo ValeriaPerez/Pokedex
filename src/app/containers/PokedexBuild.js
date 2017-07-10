@@ -4,124 +4,153 @@ import {CardPokemon} from '../components/CardPokemon';
 const containerPokemon = [
   {
     img: "http://www.serebii.net/pokemongo/pokemon/001.png",
-    type:"electrico",
-    description: "<p>hola</p>",º
-    title: "Paquete Ray"
+    type:"planta",
+    description: "Este Pokémon es bastante fuerte al principio, lo que te permitirá ganar y ganar puntos de experiencia. te será de muy poca ayuda en el primer gimnasio,",
+    name: "Bulbasaur"
   },
   {
-    img: "http://www.serebii.net/pokemongo/pokemon/001.png",
-    title: "Pollo Rostizado Tradicional",
+    img: "http://www.serebii.net/pokemongo/pokemon/002.png",
+    name: "Ivysaur",
+    description: "Este Pokémon es bastante fuerte al principio, lo que te permitirá ganar y ganar puntos de experiencia. te será de muy poca ayuda en el primer gimnasio,",
+    type:"planta"
+  },
+  {
+    img: "http://www.serebii.net/pokemongo/pokemon/003.png",
+    name: "Venusaur",
+    description: "Este Pokémon es bastante fuerte al principio, lo que te permitirá ganar y ganar puntos de experiencia. te será de muy poca ayuda en el primer gimnasio,",
+    type:"planta"
+  },
+  {
+    img: "http://www.serebii.net/pokemongo/pokemon/004.png",
+    name: "Charmander",
+    description: "Este Pokémon es bastante fuerte al principio, lo que te permitirá ganar y ganar puntos de experiencia. te será de muy poca ayuda en el primer gimnasio,",
+    type:"fuego"
+  },
+  {
+    img: "http://www.serebii.net/pokemongo/pokemon/005.png",
+    name: "Charmeleon",
+    description: "Este Pokémon es bastante fuerte al principio, lo que te permitirá ganar y ganar puntos de experiencia. te será de muy poca ayuda en el primer gimnasio,",
+    type:"fuego"
+  },
+  {
+    img: "http://www.serebii.net/pokemongo/pokemon/006.png",
+    name: "Charizard",
+    description: "Este Pokémon es bastante fuerte al principio, lo que te permitirá ganar y ganar puntos de experiencia. te será de muy poca ayuda en el primer gimnasio,",
+    type:"fuego"
+  },
+  {
+    img: "http://www.serebii.net/pokemongo/pokemon/007.png",
+    name: "Squirtle",
+    description: "Este Pokémon es bastante fuerte al principio, lo que te permitirá ganar y ganar puntos de experiencia. te será de muy poca ayuda en el primer gimnasio,",
+    type:"agua"
+  },
+  {
+    img: "http://www.serebii.net/pokemongo/pokemon/008.png",
+    name: "Wartortle",
+    description: "Este Pokémon es bastante fuerte al principio, lo que te permitirá ganar y ganar puntos de experiencia. te será de muy poca ayuda en el primer gimnasio,",
+    type:"agua"
+  },
+  {
+    img: "http://www.serebii.net/pokemongo/pokemon/009.png",
+    name: "Blastoise",
+    description: "Este Pokémon es bastante fuerte al principio, lo que te permitirá ganar y ganar puntos de experiencia. te será de muy poca ayuda en el primer gimnasio,",
+    type:"agua"
+  },
+  {
+    img: "http://www.serebii.net/pokemongo/pokemon/010.png",
+    name: "Caterpie",
+    description: "Este Pokémon es bastante fuerte al principio, lo que te permitirá ganar y ganar puntos de experiencia. te será de muy poca ayuda en el primer gimnasio,",
+    type:"planta"
+  },
+  {
+    img: "http://www.serebii.net/pokemongo/pokemon/011.png",
+    name: "Metapod",
+    description: "Este Pokémon es bastante fuerte al principio, lo que te permitirá ganar y ganar puntos de experiencia. te será de muy poca ayuda en el primer gimnasio,",
+    type:"planta"
+  },
+  {
+    img: "http://www.serebii.net/pokemongo/pokemon/012.png",
+    name: "Butterfree",
+    description: "Este Pokémon es bastante fuerte al principio, lo que te permitirá ganar y ganar puntos de experiencia. te será de muy poca ayuda en el primer gimnasio,",
+    type:"planta"
+  },
+  {
+    img: "http://www.serebii.net/pokemongo/pokemon/013.png",
+    name: "Weedle",
+    description: "Este Pokémon es bastante fuerte al principio, lo que te permitirá ganar y ganar puntos de experiencia. te será de muy poca ayuda en el primer gimnasio,",
+    type:"planta"
+  },
+  {
+    img: "http://www.serebii.net/pokemongo/pokemon/014.png",
+    name: "Kakuna",
+    description: "Este Pokémon es bastante fuerte al principio, lo que te permitirá ganar y ganar puntos de experiencia. te será de muy poca ayuda en el primer gimnasio,",
+    type:"planta"
+  },
+  {
+    img: "http://www.serebii.net/pokemongo/pokemon/015.png",
+    name: "Beedrill",
+    description: "Este Pokémon es bastante fuerte al principio, lo que te permitirá ganar y ganar puntos de experiencia. te será de muy poca ayuda en el primer gimnasio,",
+    type:"planta"
+  },
+  {
+    img: "http://www.serebii.net/pokemongo/pokemon/016.png",
+    name: "Pidgey",
+    description: "Este Pokémon es bastante fuerte al principio, lo que te permitirá ganar y ganar puntos de experiencia. te será de muy poca ayuda en el primer gimnasio,",
+    type:"aire"
+  },
+  {
+    img: "http://www.serebii.net/pokemongo/pokemon/017.png",
+    name: "Pidgeotto",
+    description: "Este Pokémon es bastante fuerte al principio, lo que te permitirá ganar y ganar puntos de experiencia. te será de muy poca ayuda en el primer gimnasio,",
+    type:"aire"
+  },
+  {
+    img: "http://www.serebii.net/pokemongo/pokemon/018.png",
+    name: "Pidgeot",
+    description: "Este Pokémon es bastante fuerte al principio, lo que te permitirá ganar y ganar puntos de experiencia. te será de muy poca ayuda en el primer gimnasio,",
+    type:"aire"
+  },
+  {
+    img: "http://www.serebii.net/pokemongo/pokemon/019.png",
+    name: "Rattata",
+    description: "Este Pokémon es bastante fuerte al principio, lo que te permitirá ganar y ganar puntos de experiencia. te será de muy poca ayuda en el primer gimnasio,",
+    type:"normal"
+  },
+  {
+    img: "http://www.serebii.net/pokemongo/pokemon/020.png",
+    name: "Raticate",
+    description: "Este Pokémon es bastante fuerte al principio, lo que te permitirá ganar y ganar puntos de experiencia. te será de muy poca ayuda en el primer gimnasio,",
+    type:"normal"
+  },
+  {
+    img: "http://www.serebii.net/pokemongo/pokemon/021.png",
+    name: "Spearow",
+    description: "Este Pokémon es bastante fuerte al principio, lo que te permitirá ganar y ganar puntos de experiencia. te será de muy poca ayuda en el primer gimnasio,",
+    type:"aire"
+  },
+  {
+    img: "http://www.serebii.net/pokemongo/pokemon/022.png",
+    name: "Fearow",
+    description: "Este Pokémon es bastante fuerte al principio, lo que te permitirá ganar y ganar puntos de experiencia. te será de muy poca ayuda en el primer gimnasio,",
+    type:"aire"
+  },
+  {
+    img: "http://www.serebii.net/pokemongo/pokemon/023.png",
+    name: "Ekan",
+    description: "Este Pokémon es bastante fuerte al principio, lo que te permitirá ganar y ganar puntos de experiencia. te será de muy poca ayuda en el primer gimnasio,",
+    type:"posion"
+  },
+  {
+    img: "http://www.serebii.net/pokemongo/pokemon/024.png",
+    name: "Arbok",
+    description: "Este Pokémon es bastante fuerte al principio, lo que te permitirá ganar y ganar puntos de experiencia. te será de muy poca ayuda en el primer gimnasio,",
+    type:"posion"
+  },
+  {
+    img: "http://www.serebii.net/pokemongo/pokemon/025.png",
+    name: "Pikachu",
+    description: "Este Pokémon es bastante fuerte al principio, lo que te permitirá ganar y ganar puntos de experiencia. te será de muy poca ayuda en el primer gimnasio,",
     type:"electrico"
-  },
-  {
-    img: ".http://www.serebii.net/pokemongo/pokemon/001.png",
-    title: "Pollo Ranchero Adobado",
-    type:"electrico"
-  },
-  {
-    img: "http://www.serebii.net/pokemongo/pokemon/001.png",
-    title: "Pierna y Muslo",
-    type:"electrico"
-  },
-  {
-    img: "http://www.serebii.net/pokemongo/pokemon/001.png",
-    title: "Salchicha Jumbo",
-    type:"electrico"
-  },
-  {
-    img: "http://www.serebii.net/pokemongo/pokemon/001.png",
-    title: "Pierna de Pavo",
-    type:"electrico"
-  },
-  {
-    img: ".http://www.serebii.net/pokemongo/pokemon/001.png",
-    title: "Cuarto de Pollo Ranchero Adobado / Rostizado Tradicional",
-    type:"electrico"
-  },
-  {
-    img: "http://www.serebii.net/pokemongo/pokemon/001.png",
-    title: "Pescuecitos",
-    type:"electrico"
-  },
-  {
-    img: "http://www.serebii.net/pokemongo/pokemon/001.png",
-    title: "Alitas",
-    type:"electrico"
-  },
-  {
-    img: "http://www.serebii.net/pokemongo/pokemon/001.png",
-    title: "Tacos de Pollo",
-    type:"electrico"
-  },
-  {
-    img: "http://www.serebii.net/pokemongo/pokemon/001.png",
-    title: "Tortas de Pollo",
-    type:"electrico"
-  },
-  {
-    img: "http://www.serebii.net/pokemongo/pokemon/001.png",
-    title: "Agua Frescas",
-    type:"Agua"
-  },
-  {
-    img: "http://www.serebii.net/pokemongo/pokemon/001.png",
-    title: "Refrescos",
-    type:"Agua"
-  },
-  {
-    img: "http://www.serebii.net/pokemongo/pokemon/001.png",
-    title: "Salchichas Cocteleras",
-    type:"planta"
-  },
-  {
-    img: "http://www.serebii.net/pokemongo/pokemon/001.png",
-    title: "Nuggets",
-    type:"planta"
-  },
-  {
-    img: "http://www.serebii.net/pokemongo/pokemon/001.png",
-    title: "Papas Cambray",
-    type:"planta"
-  },
-  {
-    img: "http://www.serebii.net/pokemongo/pokemon/001.png",
-    title: "Papas Caseras Ray",
-    type:"planta"
-  },
-  {
-    img: "http://www.serebii.net/pokemongo/pokemon/001.png",
-    title: "Frijoles Refritos",
-    type:"planta"
-  },
-  {
-    img: "http://www.serebii.net/pokemongo/pokemon/001.png",
-    title: "Nuestras Salsas: Morita, Árbol, Cacahuate, Verde Asada y Guacamole",
-    type:"planta"
-  },
-  {
-    img: "http://www.serebii.net/pokemongo/pokemon/001.png",
-    title: "Arroz",
-    type:"planta"
-  },
-  {
-    img: "http://www.serebii.net/pokemongo/pokemon/001.png",
-    title: "Spaguetti",
-    type:"planta"
-  },
-  {
-    img: "http://www.serebii.net/pokemongo/pokemon/001.png",
-    title: "Codito",
-    type:"planta"
-  },
-  {
-    img: "http://www.serebii.net/pokemongo/pokemon/001.png",
-    title: "Tortillas",
-    type:"planta"
-  },
-  {
-    img: "http://www.serebii.net/pokemongo/pokemon/001.png",
-    title: "Nopales *por temporada",
-    type:"planta"
   },
 ];
 
@@ -129,55 +158,94 @@ export default class PokedexBuild extends Component {
 	constructor(props) {
 		super(props);
 		this.state = {
-			typeFilter: 'all'
+      open: false,
+			typeFilter: 'all',
+      search: ''
 		}
     this.handleClickFilters = this.handleClickFilters.bind(this);
 	}
+
+  handleOpen = () => {
+    this.setState({
+      open: !this.state.open
+    });
+  }
 
   handleClickFilters = (filter) => {
     this.setState({
       typeFilter: filter
     });
   }
+ 
+  searchBy = (event) => {
+    this.setState({
+      search: event.target.value
+    });
+    console.log(search);
+  }
 
   render() {
     const filters = item => {
       if(this.state.typeFilter === 'all')
         return true
-      return item.type === this.state.typeFilter;
-    }
+        return item.type === this.state.typeFilter;
+      }
+
+    const pokemon = item => {
+      if(this.state.search === containerPokemon.name)
+        return true
+        return item.name === this.state.search;
+        console.log(search)
+      }
 
     const filteredTypes = containerPokemon.filter(filters);
     const elements = filteredTypes
+    const pokemons = containerPokemon.filter(pokemon);
 
     return (
-      <div style={{textAlign: 'center', backgroundColor: 'red', margin: '0', padding: '0', height: '100%',}}>
-      	<img src="./app/logo.png" style={{maxWidth: '60%', margin: '30px',}} title="Logo Pokemon" alt="Logo" />
-        <div>
-        	{this.state.loading ? 
-        		<img src="https://media.giphy.com/media/rFrMBUUuKs22Y/giphy.gif"/> 
-        	: null}
-          <div className="">
-            <div className="">
-              <h4 style={{color: 'white'}}>Demo</h4>
-              <div className="">
-                <button className={this.state.typeFilter === "all" ? 'active' : ''} onClick={()=> this.handleClickFilters("all")}>
-                  <span>TODO</span>
-                </button>
-                <button className={this.state.typeFilter === "electrico" ? 'active' : ''} onClick={()=> this.handleClickFilters("electrico")}>
-                  <span>ELECTRICO</span>
-                </button>
-                <button className={this.state.typeFilter === "Agua" ? 'active' : ''} onClick={()=> this.handleClickFilters("Agua")}>
-                  <span>AGUA</span>
-                </button>
-                <button className={this.state.typeFilter === "planta" ? 'active' : ''} onClick={()=> this.handleClickFilters("planta")}>
-                  <span>PLANTA</span>
-                </button>
-              </div>
-              <CardPokemon cards={elements}/>
+      <div className="container-pokedex">
+      	<img src="./app/logo.png" title="Logo Pokemon" alt="Logo" className="container-pokedex__image" />
+
+        <form>
+          <input 
+            type="text"
+            className="container-pokedex__input"
+            placeholder="¿Que pokemon buscas?" 
+            onChange={this.searchBy} />
+        </form>
+
+        <div className="container-pokedex__content-pokemon">
+          <button onClick={this.handleOpen} className="menu-card__button menu-card__button--filter">Filtrar por tipo</button>
+
+          {this.state.open ?
+            <div className="container-pokedex__content-buttons">
+              <button className={this.state.typeFilter === "all" ? 'active' : ''} onClick={()=> this.handleClickFilters("all")}>
+                <span>TODOS</span>
+              </button>
+              <button className={this.state.typeFilter === "electrico" ? 'active' : ''} onClick={()=> this.handleClickFilters("electrico")}>
+                <span>ELECTRICO</span>
+              </button>
+              <button className={this.state.typeFilter === "agua" ? 'active' : ''} onClick={()=> this.handleClickFilters("agua")}>
+                <span>AGUA</span>
+              </button>
+              <button className={this.state.typeFilter === "planta" ? 'active' : ''} onClick={()=> this.handleClickFilters("planta")}>
+                <span>PLANTA</span>
+              </button>
+              <button className={this.state.typeFilter === "posion" ? 'active' : ''} onClick={()=> this.handleClickFilters("posion")}>
+                <span>POSION</span>
+              </button>
+              <button className={this.state.typeFilter === "normal" ? 'active' : ''} onClick={()=> this.handleClickFilters("normal")}>
+                <span>NORMAL</span>
+              </button>
             </div>
-          </div>
-         </div>
+            :
+            null
+          }
+
+          <CardPokemon cards={pokemons} /> 
+          <CardPokemon cards={elements} />   
+
+        </div>
       </div>
     );
   }

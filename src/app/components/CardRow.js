@@ -16,7 +16,7 @@ export default class CardRow extends Component {
   }
 
   render(){
-    const {src, name, description} = this.props;
+    const {src, name, description, num} = this.props;
     return(
       <div className="menu-card">
         <div className="menu-card__image-wrapper" style={{backgroundImage: `url(${src})`}}>
@@ -38,7 +38,7 @@ export default class CardRow extends Component {
           }
          
           {this.state.cap ? '' : <button onClick={this.handleClick} className="menu-card__button">Capturar</button>}
-          
+
         </div>
       </div>
     );

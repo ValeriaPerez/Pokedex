@@ -113,6 +113,37 @@ body {
   }
 }
 
+.container{
+  display: flex;
+  flex-direction: column;
+
+  &__people{
+    flex: 1;
+    background-color: rgba(234,234,49,0.18);
+
+    h2{
+    text-align: center;
+    }
+  }
+
+  &__species{
+    flex: 1;
+    background-color: rgba(255,0,0,0.32);
+
+    h2{
+    text-align: center;
+    }
+  }
+
+  &__vehicles{
+    flex: 1;
+    background-color: rgba(128,0,128,0.35);
+
+    h2{
+    text-align: center;
+    }
+  }
+}
 
   
 
